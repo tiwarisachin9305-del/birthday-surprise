@@ -9,7 +9,8 @@ st.set_page_config(page_title="Birthday Surprise 🎂", page_icon="🎉")
 
 # ------------------ TITLE ------------------
 st.title("🎉 Happy Birthday Medha 🎂")
-st.write("May your day be filled with happiness, love and beautiful moments 💖")
+st.write("May Your Day Be Filled with Happiness,love and beautiful moments wishing you endless smiles & success ahead !")
+
 
 st.balloons()
 
@@ -60,10 +61,10 @@ st.header("💬 Message")
 st.write("""
 Hi Medha,
 
-On this beautiful day, I just want to say 😊  
-May your birthday be as bright as your smile and as beautiful as your heart 💖  
+On this beautiful day, I only pray to God...  
+"May your birthday be as bright as your smile and as beautiful as your heart."  
 
-Have an amazing day! 🎂
+Happy birthday...🎂
 """)
 
 # ------------------ SURPRISE BUTTON ------------------
@@ -88,8 +89,8 @@ if st.button("Submit Answer"):
 st.header("📸 Some Memories")
 
 try:
-    image1 = Image.open("photo1.png")
-    image2 = Image.open("photo2.png")
+    image1 = Image.open("photo1.jpg")
+    image2 = Image.open("photo2.jpg")
 
     st.image(image1, caption="Memory 1")
     st.image(image2, caption="Memory 2")
