@@ -30,7 +30,7 @@ autoplay_audio("music.mp3")
 # ------------------ COUNTDOWN ------------------
 st.header("⏳ Countdown")
 
-target_date = datetime(2026, 3, 25, 23, 59, 59)   # 👉 TEST DATE (baad me 25 kar dena)
+target_date = datetime(2026, 3, 25, 0, 0, 0)   # 👉 TEST DATE (baad me 25 kar dena)
 now = datetime.now()
 
 remaining = target_date - now
